@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.container {
+  border: 1px solid black;
+  width: 50%;
+  height: 50%;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.squares {
+  border: 1px solid black;
+  padding: 0px;
+  float: left;
+  width: 50%;
+  height: 50%;
+}
