@@ -1,4 +1,4 @@
-console.log("Javascript is alive!");
+// console.log("Javascript is alive!");
 
 $(document).ready(function() {
 $('.squares').click(function() {

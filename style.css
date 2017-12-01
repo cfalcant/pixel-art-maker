@@ -5,9 +5,8 @@
 .container {
   border: 1px solid black;
   width: 50%;
-  height: 50%;
-  overflow: hidden;
-  position: fixed;
+  height: 50vh;
+  position: relative;
   top: 0;
   left: 0;
 }
@@ -17,4 +16,28 @@
   float: left;
   width: 50%;
   height: 50%;
+}
+
+.pallettes {
+  position: relative;
+  border: 1px solid black;
+  margin-top: 5px;
+  width: 80px;
+  height: 80px;
+}
+
+.pallette {
+  display: block;
+  float: right;
+  border: 1px solid black;
+  width: 100%;
+  height: 100%;
+}
+
+.pallette.num1 {
+  background-color: blue;
+}
+
+.pallette.num2 {
+  background-color: green;
 }
